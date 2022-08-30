@@ -93,6 +93,7 @@ public class BlfriasMap {
                 val.setNext(null);
                 return val.getValue();
             }
+            val = current;
             current = current.getNext();
         }
         return null;
