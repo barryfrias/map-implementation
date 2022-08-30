@@ -43,7 +43,6 @@ public class BlfriasMap {
         int hash = key.hashCode();
         int index =  deriveIndex(hash);
         Node n = new Node();
-        n.setHash(hash);
         n.setKey(key);
         n.setValue(value);
 
